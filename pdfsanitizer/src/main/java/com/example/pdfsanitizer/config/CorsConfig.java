@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-        .allowedOrigins("http://localhost:3000", "https://pdfsanitizer-frontend.vercel.app")
+        .allowedOrigins("http://localhost:3000", "https://pdfsanitizer-frontend-jjnj4cyl8-lavishs-projects-c8e1e592.vercel.app/")
         .allowedMethods("GET", "POST")
                 .allowedHeaders("*");
     }
